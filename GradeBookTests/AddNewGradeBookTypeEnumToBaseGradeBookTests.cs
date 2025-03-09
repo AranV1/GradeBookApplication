@@ -29,7 +29,7 @@ namespace GradeBookTests
             var gradebookEnum = TestHelpers.GetUserType("GradeBook.Enums.GradeBookType");
 
             // Assert GradeBookType was found in the GradeBook.Enums namespace
-            Assert.True(gradebookEnum != null, "`GradeBookType` wasn't found in the `GradeBooks.Enums` namespace.");
+            Assert.True(gradebookEnum != null, "`GradeBookType` wasn't found in the `GradeBook.Enums` namespace.");
 
             // Test to make sure the enum `GradeBookType` is public.
             Assert.True(gradebookEnum.IsPublic, "`GradeBook.Enums.GradeBookType` exists, but isn't `public`.");
